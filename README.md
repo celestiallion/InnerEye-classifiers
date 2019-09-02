@@ -2,6 +2,11 @@
 Color of daily objects says a lot about them. However, upon applying image filters, which are often available on social media, objects in an image undergo a color transformation. The objects in such an image often have color that confuses us or conveys other meaning. Therefore, applying an image filter is a kind of image editing.
 
 
+<p align="center">
+  <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg">
+</p>
+
+
 ![Unedited image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg) \
 *Figure: An example of unedited image.*
 
