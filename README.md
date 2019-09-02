@@ -22,3 +22,6 @@ In this classifier the challenge is to recognize how the color style of an image
 
 Because the color style of an image has to be understood, the content and the color of an image has to be separated. We need to work with only the style of the input image. The style and content separating mechanism in the classifier is based on the autoencoder architecture in [MUNIT](http://openaccess.thecvf.com/content_ECCV_2018/html/Xun_Huang_Multimodal_Unsupervised_Image-to-image_ECCV_2018_paper.html) InnerEye classifier is then cotrained on the images (image reconstruction) and the edited image labels (unedited or edited). The classifier is multi-targeted to improve accuracy- therefore, the class target labels are {'unedited', '_1977', 'aden', 'brannan', 'brooklyn', 'clarendon', 'earlybird', 'gingham', 'hudson', 'inkwell', 'kelvin', 'lark', 'lofi', 'maven', 'mayfair', 'moon', 'nashville', 'perpetua', 'reyes', 'rise', 'slumber', 'stinson', 'toaster', 'valencia', 'walden', 'willow', 'xpro2'}.
 
+
+![Analytical classifier architecture](https://github.com/greenboal/InnerEye-classifiers/blob/master/architectures/analytical_classifier.jpg) \
+*Architecture of the classifier*
