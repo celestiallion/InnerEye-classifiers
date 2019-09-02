@@ -9,16 +9,18 @@ Color of daily objects says a lot about them. However, upon applying image filte
 </p>
 
 
-![Unedited image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg) \
-*Figure: An example of unedited image.*
+<p align="center">
+  <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_nashville.jpg">
+  <br>
+  Figure: Edited image due to application of Nashville filter.
+</p>
 
 
-![Nashville image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_nashville.jpg) \
-*Figure: After application of Nashville filter onto the unedited image example- an edited image.*
-
-
-![XPro2 image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_xpro2.jpg) \
-*Figure: After application of Nashville filter onto the unedited image example- an edited image.*
+<p align="center">
+  <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_xpro2.jpg">
+  <br>
+  Figure: Edited image due to application of XPro2 filter.
+</p>
 
 
 This classifier, based on the survey result of the ongoing [InnerEye](http://inner-eye.herokuapp.com/) project, can distinguish such edited and unedited images. InnerEye project aims at understanding the credibility of social interaction in the presence of both edited and unedited images on the social media platforms.
@@ -30,9 +32,15 @@ In this classifier the challenge is to recognize how the color style of an image
 Because the color style of an image has to be understood, the content and the color of an image has to be separated. We need to work with only the style of the input image. The style and content separating mechanism in the classifier is based on the autoencoder architecture in [MUNIT](http://openaccess.thecvf.com/content_ECCV_2018/html/Xun_Huang_Multimodal_Unsupervised_Image-to-image_ECCV_2018_paper.html) InnerEye classifier is then cotrained on the images (image reconstruction) and the edited image labels (unedited or edited). The classifier is multi-targeted to improve accuracy- therefore, the class target labels are {'unedited', '_1977', 'aden', 'brannan', 'brooklyn', 'clarendon', 'earlybird', 'gingham', 'hudson', 'inkwell', 'kelvin', 'lark', 'lofi', 'maven', 'mayfair', 'moon', 'nashville', 'perpetua', 'reyes', 'rise', 'slumber', 'stinson', 'toaster', 'valencia', 'walden', 'willow', 'xpro2'}.
 
 
-![Analytical classifier architecture](https://github.com/greenboal/InnerEye-classifiers/blob/master/architectures/analytical_classifier.jpg) \
-*Figure: Architecture of the classifier*
+<p align="center">
+  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/architectures/analytical_classifier.jpg">
+  <br>
+  Figure: Architecture of the classifier.
+</p>
 
 
-![Accuracy of the analytical classifier](https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/History.png) \
-*Figure: Accuracy of the analytical classifier*
+<p align="center">
+  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/History.png">
+  <br>
+  Figure: Accuracy of the analytical classifier.
+</p>
