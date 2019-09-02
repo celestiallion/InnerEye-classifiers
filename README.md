@@ -3,6 +3,18 @@ Color of daily objects says a lot about them. However, upon applying image filte
 
 
 ![Unedited image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg)
+*Figure: An example of unedited image.*
+
+
+![Nashville image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_nashville.jpg)
+*Figure: After application of Nashville filter onto the unedited image example- an edited image.*
+
+
+![XPro2 image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_xpro2.jpg)
+*Figure: After application of Nashville filter onto the unedited image example- an edited image.*
 
 
 This classifier, based on the survey result of the ongoing [InnerEye](http://inner-eye.herokuapp.com/) project, can distinguish such edited and unedited images. InnerEye project aims at understanding the credibility of social interaction in the presence of both edited and unedited images on the social media platforms.
+
+
+In this classifier the challenge is to recognize how the colors are 
