@@ -2,4 +2,22 @@
 Color of daily objects says a lot about them. However, upon applying image filters, which are often available on social media, objects in an image undergo a color transformation. The objects in such an image often have color that confuses us or conveys other meaning. Therefore, applying an image filter is a kind of image editing.
 
 
+![Unedited image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg) \
+*Figure: An example of unedited image.*
+
+
+![Nashville image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_nashville.jpg) \
+*Figure: After application of Nashville filter onto the unedited image example- an edited image.*
+
+
+![XPro2 image](https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_xpro2.jpg) \
+*Figure: After application of Nashville filter onto the unedited image example- an edited image.*
+
+
 This classifier, based on the survey result of the ongoing [InnerEye](http://inner-eye.herokuapp.com/) project, can distinguish such edited and unedited images. InnerEye project aims at understanding the credibility of social interaction in the presence of both edited and unedited images on the social media platforms.
+
+
+In this classifier the challenge is to recognize how the color style of an image is different from it's unedited (iamges on which no filters has been applied) counterpart. However, under different illumination condition this color style changes. Assuming there is an invariant relationship among the colors for each of the image filters, this classifier has been built. To compile the dataset required, images are sampled from the [Google Landmarks dataset](https://www.kaggle.com/google/google-landmarks-dataset) first and then different image filters are applied on the images. Both the unedited and the edited counterparts of those are present in the dataset.
+
+
+Because the color style of an image has to be understood, the content and the color of an image has to be separated.
