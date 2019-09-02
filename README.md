@@ -25,3 +25,7 @@ Because the color style of an image has to be understood, the content and the co
 
 ![Analytical classifier architecture](https://github.com/greenboal/InnerEye-classifiers/blob/master/architectures/analytical_classifier.jpg) \
 *Figure: Architecture of the classifier*
+
+
+![Accuracy of the analytical classifier](https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/History.png) \
+*Figure: Accuracy of the analytical classifier*
