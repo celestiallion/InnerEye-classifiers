@@ -24,4 +24,4 @@ Because the color style of an image has to be understood, the content and the co
 
 
 ![Analytical classifier architecture](https://github.com/greenboal/InnerEye-classifiers/blob/master/architectures/analytical_classifier.jpg) \
-*Architecture of the classifier*
+*Figure: Architecture of the classifier*
