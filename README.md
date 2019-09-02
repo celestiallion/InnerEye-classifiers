@@ -4,6 +4,7 @@ Color of daily objects says a lot about them. However, upon applying image filte
 
 <p align="center">
   <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg">
+  <br>
   Figure: An example of unedited image.
 </p>
 
