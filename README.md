@@ -55,3 +55,6 @@ A classifier that separates style and content and classify on the style does not
   <br>
   Figure: Accuracy of the analytical classifier.
 </p>
+
+
+The author of the classifier is available at: 0905107.saab@ugrad.cse.buet.ac.bd
