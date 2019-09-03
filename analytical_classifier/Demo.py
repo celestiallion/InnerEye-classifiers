@@ -11,8 +11,7 @@ import h5py
 from PIL import Image
 import argparse
 
-# model_weight_file = '/home/adnan/Downloads/Model_captain-buet-V1-122-0.7924.h5'
-model_weight_file = '/home/adnan/Downloads/Model_captain-buet-V1-141-0.7997.h5'
+model_weight_file = '/home/adnan/Downloads/Model_V1-141-0.7997.h5'
 
 loss = { 'reconstruction': losses.mean_squared_error, 'predictions': losses.categorical_crossentropy }
 optimizer = SGD(lr=0.005, momentum=0.9, decay=1e-6, nesterov=True)

@@ -3,7 +3,6 @@ from tensorflow.python.keras import layers
 from tensorflow.python.keras.models import Model
 from tensorflow.python.keras import backend as K
 import sys
-# sys.path.append('/content/drive/My Drive/InnerEye-code/captain-buet/V1')
 sys.path.append('.')
 from custom_layers import InstanceNormalization
 import numpy as np

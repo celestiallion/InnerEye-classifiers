@@ -2,7 +2,7 @@ import pandas
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pandas.read_csv('Log_captain-buet-V1.log')
+df = pandas.read_csv('Log_V1.log')
 
 epochs = df['epoch']
 train_acc = df['predictions_categorical_accuracy']

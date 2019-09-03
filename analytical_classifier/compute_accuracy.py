@@ -9,9 +9,7 @@ from tensorflow.python.keras.models import Model
 import numpy as np
 import h5py
 
-# model_weight_file = '/home/adnan/Downloads/Model_captain-buet-V1-122-0.7924.h5'
-# model_weight_file = '/home/adnan/Downloads/Model_captain-buet-V1-141-0.7997.h5'
-model_weight_file = '/home/adnan/InnerEye-Machine-Learning/captain-buet/Model_captain-buet-V1-175-0.8070.h5'
+model_weight_file = '/home/adnan/InnerEye-Machine-Learning/Model_V1-175-0.8070.h5'
 loss = { 'reconstruction': losses.mean_squared_error, 'predictions': losses.categorical_crossentropy }
 optimizer = SGD(lr=0.005, momentum=0.9, decay=1e-6, nesterov=True)
 metrics = { 'predictions': [categorical_accuracy] }
