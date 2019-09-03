@@ -39,6 +39,17 @@ Because the color style of an image has to be understood, the content and the co
 </p>
 
 
+A classifier that does not separate style and content and classify on the style overfits very quickly.
+
+<p align="center">
+  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/Sequential/History.png">
+  <br>
+  Figure: Accuracy of the sequential classifier.
+</p>
+
+
+A classifier that separates style and content and classify on the style does not over fits itself and keeps improving the accuracy over a large number of iterations.
+
 <p align="center">
   <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/History.png">
   <br>
