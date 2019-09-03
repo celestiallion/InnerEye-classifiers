@@ -6,6 +6,9 @@ from tensorflow.python.keras import constraints
 from tensorflow.python.keras import backend as K
 
 
+'''
+The following class is adapted from: https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/layers/normalization/instancenormalization.py
+'''
 class InstanceNormalization(Layer):
     """Instance normalization layer.
 
