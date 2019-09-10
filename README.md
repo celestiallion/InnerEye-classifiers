@@ -57,4 +57,4 @@ A classifier that separates style and content and classifies on the style does n
 </p>
 
 
-The author of the classifier is available at 0905107.saab@ugrad.cse.buet.ac.bd
+The author of the classifier is available at 1018052026@grad.cse.buet.ac.bd
