@@ -42,7 +42,7 @@ Because the color style of an image has to be understood, the content and the co
 A classifier that does not separate style and content and classifies on the style overfits very quickly.
 
 <p align="center">
-  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/Sequential/History.png">
+  <img width="422" height="326" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/Sequential/History.png">
   <br>
   Figure: Accuracy of the sequential classifier.
 </p>
@@ -51,7 +51,7 @@ A classifier that does not separate style and content and classifies on the styl
 A classifier that separates style and content and classifies on the style does not over fits itself and keeps improving the accuracy over a large number of iterations.
 
 <p align="center">
-  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/History.png">
+  <img width="422" height="326" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/History.png">
   <br>
   Figure: Accuracy of the analytical classifier.
 </p>
@@ -59,7 +59,7 @@ A classifier that separates style and content and classifies on the style does n
 We made the training dataset smaller- reducing the number of training images to one seventh, and then trained both the network with hyperparameters unchanged. Surprisingly, our network outperformed the sequential one in a wide margin. Also, our network did not overfit.
 
 <p align="center">
-  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/on_lighter_dataset.png">
+  <img width="422" height="326" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/on_lighter_dataset.png">
   <br>
   Figure: Comaparison of both the neural networks.
 </p>
