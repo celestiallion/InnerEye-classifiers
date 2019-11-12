@@ -56,13 +56,13 @@ A classifier that separates style and content and classifies on the style does n
   Figure: Accuracy of the analytical classifier.
 </p>
 
-<!--We made the training dataset smaller- reducing the number of training images to one seventh, and then trained both the network with hyperparameters unchanged. Surprisingly, our network outperformed the sequential one in a wide margin. Also, our network did not overfit.-->
+We made the training dataset smaller- reducing the number of training images to one seventh, and then trained both the network with hyperparameters unchanged. Surprisingly, our network (training is still underway) outperformed the sequential one by a wide margin. Also, our network has yet not overfitted unlike to its counterpart.
 
-<!--<p align="center">
+<p align="center">
   <img width="422" height="326" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/on_lighter_dataset.png">
   <br>
   Figure: Comaparison of both the neural networks.
-</p>-->
+</p>
 
 
 The author of the classifier is available at 1018052026@grad.cse.buet.ac.bd
