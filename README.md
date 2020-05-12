@@ -33,7 +33,7 @@ Because the color style of an image has to be understood, the content and the co
 
 
 <p align="center">
-  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/architectures/analytical_classifier.jpg">
+  <img width="326" height="422" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/architectures/InnerEye Architecture.png">
   <br>
   Figure: Architecture of the classifier.
 </p>
