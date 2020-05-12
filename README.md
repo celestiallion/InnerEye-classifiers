@@ -2,25 +2,40 @@
 Color of daily objects says a lot about them. However, upon applying image filters, which are often available on social media, objects in an image undergo a color transformation. The objects in such an image often have color that confuses us or conveys other meaning. Therefore, applying an image filter is a kind of image editing.
 
 
-<p align="center">
+<!--<p align="center">
   <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg">
   <br>
   Figure: An example of unedited image.
-</p>
+</p>-->
 
 
-<p align="center">
+<!--<p align="center">
   <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_nashville.jpg">
   <br>
   Figure: Edited image due to application of Nashville filter.
-</p>
+</p>-->
 
 
-<p align="center">
+<!--<p align="center">
   <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_xpro2.jpg">
   <br>
   Figure: Edited image due to application of XPro2 filter.
-</p>
+</p>-->
+
+<div class="row">
+  <div class="column">
+    <!--<img src="img_mountains.jpg" alt="Mountains" style="width:100%">-->
+    <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me.jpg">
+  </div>
+  <div class="column">
+    <!--<img src="img_snow.jpg" alt="Snow" style="width:100%">-->
+    <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_xpro2.jpg">
+  </div>
+  <div class="column">
+    <!--<img src="img_forest.jpg" alt="Forest" style="width:100%">-->
+    <img width="128" height="192" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/Me_nashville.jpg">
+  </div>
+</div>
 
 
 This classifier, based on the survey result of the ongoing [InnerEye](http://inner-eye.herokuapp.com/) project, can distinguish such edited and unedited images. InnerEye project aims at understanding the credibility of social interaction in the presence of both edited and unedited images on the social media platforms.
