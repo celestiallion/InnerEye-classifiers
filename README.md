@@ -36,30 +36,30 @@ Because the color style of an image has to be understood, the content and the co
 </p>
 
 
-A classifier that does not separate style and content and classifies on the style overfits very quickly.
+A classifier that does not separate style and content and classifies on the style does not converge.
 
 <p align="center">
-  <img width="422" height="336" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/Sequential/Seq-30.png">
+  <img width="422" height="336" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/Sequential/Seq-30-loss.png">
   <br>
-  Figure: Accuracy of the sequential classifier.
+  Figure: Loss of the sequential classifier.
 </p>
 
 
-A classifier that separates style and content and classifies on the style does not over fits itself and keeps improving the accuracy over a large number of iterations.
+However, a classifier (our contribution) that separates style and content and classifies on the style converges.
 
 <p align="center">
-  <img width="422" height="336" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/A-30.png">
+  <img width="422" height="336" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/analytical_classifier/A-30-loss.png">
   <br>
-  Figure: Accuracy of the analytical classifier.
+  Figure: Loss of the analytical classifier.
 </p>
 
-We made the training dataset smaller- reducing the number of training images to one seventh, and then trained both the network with hyperparameters unchanged. Surprisingly, our network (training is still underway) outperformed the sequential one by a wide margin. Also, our network has yet not overfitted unlike to its counterpart.
+<!--We made the training dataset smaller- reducing the number of training images to one seventh, and then trained both the network with hyperparameters unchanged. Surprisingly, our network (training is still underway) outperformed the sequential one by a wide margin. Also, our network has yet not overfitted unlike to its counterpart.-->
 
-<p align="center">
+<!--<p align="center">
   <img width="422" height="326" src="https://github.com/greenboal/InnerEye-classifiers/blob/master/sample_images/on_lighter_dataset.png">
   <br>
   Figure: Comaparison of both the neural networks.
-</p>
+</p>-->
 
 
 The author of the classifier is available at 1018052026@grad.cse.buet.ac.bd
